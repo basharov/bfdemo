@@ -1,8 +1,6 @@
 import React from 'react'
-import { useSelector } from 'react-redux'
 
 import { DataView, MainContainer } from './Viewport.styles'
-// import { Chart } from '@/Components/Chart/Chart'
 import { BookTable } from '@/Components/BookTable/BookTable'
 import { BookContainer } from '../BookTable/BookTable.styles'
 import { StatusPanel } from '@/Components/StatusPanel/StatusPanel'

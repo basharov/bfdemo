@@ -20,7 +20,7 @@ const BookTable: FC<IBookTableProps> = ({header, data }: IBookTableProps) => {
         return <BookRow key={row[0]}>
           <td>{(row[0])}</td>
           <td>{(row[1])}</td>
-          <td>{String(row[2]).replace('-', '')}</td>
+          <td>{Math.abs(row[2])}</td>
         </BookRow>
       })}
     </GenericTable>
